@@ -3,7 +3,7 @@
 project on heart disease prediction using machine learning models
 =======
 
-# Heart Disease Prediction (VS Code)
+
 
 **Short description:** This repository contains code to preprocess a heart disease dataset and train classification models (Decision Tree, Random Forest, Naive Bayes, Logistic Regression). The project is prepared for running locally in **VS Code**.
 
