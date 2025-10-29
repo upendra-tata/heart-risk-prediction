@@ -2,7 +2,34 @@
 # heart-disease-prediction
 project on heart disease prediction using machine learning models
 =======
+**How It Works**
 
+**Data Collection**
+The project uses the UCI Heart Disease Dataset, which includes clinical data such as age, cholesterol, blood pressure, ECG results, and exercise responses.
+
+**Data Preprocessing**
+
+Missing values are handled and categorical values are encoded.
+Features are standardized using StandardScaler for better model performance.
+Data is split into training (80%) and testing (20%) sets.
+
+**Model Training**
+Four machine learning models are trained and compared:
+
+**Logistic Regression** – Linear classifier that predicts heart disease probability.
+**Decision Tree** – Simple rule-based model for medical interpretation.
+**Random Forest** – Ensemble of trees providing higher accuracy and stability.
+**Naive Bayes** – Probabilistic model assuming independence among features.
+
+**Prediction Logic**
+After training, the model predicts whether a patient is at high or low risk based on:
+Blood pressure, cholesterol, and age
+ECG and exercise test results
+Chest pain type and thalassemia score
+
+**Result Interpretation**
+
+The model outputs the risk prediction (High/Low) along with a confidence score.
 
 
 **Short description:** This repository contains code to preprocess a heart disease dataset and train classification models (Decision Tree, Random Forest, Naive Bayes, Logistic Regression). The project is prepared for running locally in **VS Code**.
@@ -67,6 +94,6 @@ The script downloads the dataset to `data/heart.csv`. If you already have `heart
 - If you prefer the dataset embedded in the repo, replace `src/download_dataset.py` with the CSV file placed at `data/heart.csv`.
 
 ## License & Acknowledgements
-- Use as you like for academic purposes. Replace with your preferred license if needed.
-- Dataset source referenced in the original report (Google Drive link).
+
+
 >>>>>>> 86267da (Initial commit - Heart Disease Prediction Project)
