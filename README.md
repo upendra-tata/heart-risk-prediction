@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# heart-disease-prediction
+# heart-risk-prediction
 project on heart disease prediction using machine learning models
 =======
 **How It Works**
